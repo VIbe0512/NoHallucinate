@@ -1,9 +1,7 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
-import dotenv from 'dotenv';
+import 'dotenv/config';
 
 // Ensure env variables are loaded (this is fallback, main server.js should also do it)
-dotenv.config();
-
 const apiKey = process.env.GEMINI_API_KEY;
 
 let genAI = null;
@@ -12,7 +10,7 @@ let model = null;
 if (apiKey && apiKey.trim() !== '') {
   try {
     genAI = new GoogleGenerativeAI(apiKey);
-    model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
+    model = genAI.getGenerativeModel({ model: 'gemini-3.5-flash' });
   } catch (err) {
     console.error('Failed to initialize GoogleGenerativeAI client:', err.message);
   }
