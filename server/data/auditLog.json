@@ -1,0 +1,194 @@
+[
+  {
+    "id": "99719537-c076-48d0-a6ba-c7959e4a9a31",
+    "originalBullet": "Managed a team of developers building internal web tools.",
+    "knownFacts": "Led a team of 5 developers and shipped 3 internal applications.",
+    "attempts": [
+      {
+        "attemptNumber": 1,
+        "rewrite": "Led a team of 5 developers to build and ship 3 internal web applications.",
+        "approved": true,
+        "reason": "The rewritten bullet point accurately reflects the original meaning and known facts, with all metrics (5 developers, 3 internal web applications) fully supported. It is concise and contains only 14 words, which is well under the 20-word limit."
+      }
+    ],
+    "finalVerdict": "approved",
+    "finalRewrite": "Led a team of 5 developers to build and ship 3 internal web applications.",
+    "retriesUsed": 0,
+    "reason": "The rewritten bullet point accurately reflects the original meaning and known facts, with all metrics (5 developers, 3 internal web applications) fully supported. It is concise and contains only 14 words, which is well under the 20-word limit.",
+    "timestamp": "2026-08-30T16:39:30.808Z"
+  },
+  {
+    "id": "5b7157e6-5fcc-4760-989c-a7b2844e97e1",
+    "originalBullet": "Managed a team of developers building internal web tools.",
+    "knownFacts": "Led a team of 5 developers and shipped 3 internal applications.",
+    "attempts": [
+      {
+        "attemptNumber": 1,
+        "rewrite": "Led a team of 5 developers to ship 3 internal web applications.",
+        "approved": true,
+        "reason": "The rewrite successfully incorporates verified metrics from the known facts (5 developers, 3 applications) while maintaining the original meaning and scope, and is under the 20-word limit."
+      }
+    ],
+    "finalVerdict": "approved",
+    "finalRewrite": "Led a team of 5 developers to ship 3 internal web applications.",
+    "retriesUsed": 0,
+    "reason": "The rewrite successfully incorporates verified metrics from the known facts (5 developers, 3 applications) while maintaining the original meaning and scope, and is under the 20-word limit.",
+    "timestamp": "2026-08-30T16:40:02.107Z"
+  },
+  {
+    "id": "4031361c-7084-4c13-a814-975e2f61760d",
+    "originalBullet": "Responsible for various software engineering tasks across company products.",
+    "knownFacts": "Worked with React and Node.js on 2 client portals.",
+    "attempts": [],
+    "finalVerdict": "error",
+    "finalRewrite": "",
+    "retriesUsed": 0,
+    "reason": "Gemini provider rate limit hit, please wait a moment.",
+    "timestamp": "2026-08-30T16:40:02.312Z"
+  },
+  {
+    "id": "28caee6b-8b45-4360-9cc5-1fe45d3206e0",
+    "originalBullet": "Managed software engineering team of five developers.",
+    "knownFacts": "",
+    "attempts": [],
+    "finalVerdict": "error",
+    "finalRewrite": "",
+    "retriesUsed": 0,
+    "reason": "Agent temporarily unavailable due to API request limits.",
+    "timestamp": "2026-08-30T16:40:42.685Z"
+  },
+  {
+    "id": "81e29821-c2cc-424b-84e0-95ca5863acca",
+    "originalBullet": "Managed a team of developers building internal web tools.",
+    "knownFacts": "Led a team of 5 developers and shipped 3 internal applications.",
+    "attempts": [
+      {
+        "attemptNumber": 1,
+        "rewrite": "Led a team of 5 developers to build and ship 3 internal web applications.",
+        "approved": true,
+        "reason": "The rewritten bullet point is under 20 words, preserves the original meaning, and all metrics (5 developers, 3 internal web applications) are fully supported by the provided known facts."
+      }
+    ],
+    "finalVerdict": "approved",
+    "finalRewrite": "Led a team of 5 developers to build and ship 3 internal web applications.",
+    "retriesUsed": 0,
+    "reason": "The rewritten bullet point is under 20 words, preserves the original meaning, and all metrics (5 developers, 3 internal web applications) are fully supported by the provided known facts.",
+    "timestamp": "2026-08-30T16:40:48.221Z"
+  },
+  {
+    "id": "087de510-5f1c-4a4c-b733-b3153dc6b425",
+    "originalBullet": "Responsible for various software engineering tasks across company products.",
+    "knownFacts": "Worked on React frontend for 2 client web portals.",
+    "attempts": [
+      {
+        "attemptNumber": 1,
+        "rewrite": "Engineered React frontends for two client web portals.",
+        "approved": true,
+        "reason": "The rewrite is under 20 words, preserves the meaning of the original bullet combined with the known facts, and uses only traceable metrics."
+      }
+    ],
+    "finalVerdict": "approved",
+    "finalRewrite": "Engineered React frontends for two client web portals.",
+    "retriesUsed": 0,
+    "reason": "The rewrite is under 20 words, preserves the meaning of the original bullet combined with the known facts, and uses only traceable metrics.",
+    "timestamp": "2026-08-30T16:40:56.393Z"
+  },
+  {
+    "id": "1944084a-b659-48e0-a6d9-395439a9ed77",
+    "originalBullet": "Maintained enterprise codebase and conducted routine maintenance.",
+    "knownFacts": "No metrics available.",
+    "attempts": [],
+    "finalVerdict": "error",
+    "finalRewrite": "Maintained enterprise codebase integrity and executed routine system maintenance.",
+    "retriesUsed": 0,
+    "reason": "Gemini provider rate limit hit, please wait a moment.",
+    "timestamp": "2026-08-30T16:41:02.774Z"
+  },
+  {
+    "id": "29027739-bf1f-4a7b-90f7-0a749624ec8f",
+    "originalBullet": "Managed software engineering team of five developers.",
+    "knownFacts": "",
+    "attempts": [],
+    "finalVerdict": "error",
+    "finalRewrite": "",
+    "retriesUsed": 0,
+    "reason": "Agent temporarily unavailable due to API request limits.",
+    "timestamp": "2026-08-30T16:41:39.534Z"
+  },
+  {
+    "id": "68caa247-a93f-4b05-80f8-6cb614443865",
+    "originalBullet": "Managed a team of developers building internal web tools.",
+    "knownFacts": "Led a team of 5 developers and shipped 3 internal applications.",
+    "attempts": [
+      {
+        "attemptNumber": 1,
+        "rewrite": "Led a team of 5 developers to build and ship 3 internal web applications.",
+        "approved": true,
+        "reason": "The rewrite successfully complies with all three rules. The metrics of 5 developers and 3 applications are directly traceable to the provided known facts (Rule A), the meaning and scope of managing a team to build internal tools are preserved (Rule B), and the word count is 14 words, which is well under the 20-word limit (Rule C)."
+      }
+    ],
+    "finalVerdict": "approved",
+    "finalRewrite": "Led a team of 5 developers to build and ship 3 internal web applications.",
+    "retriesUsed": 0,
+    "reason": "The rewrite successfully complies with all three rules. The metrics of 5 developers and 3 applications are directly traceable to the provided known facts (Rule A), the meaning and scope of managing a team to build internal tools are preserved (Rule B), and the word count is 14 words, which is well under the 20-word limit (Rule C).",
+    "timestamp": "2026-08-30T16:41:45.525Z"
+  },
+  {
+    "id": "b4eac966-fdd0-41e4-a873-ddb2edf8057a",
+    "originalBullet": "Managed software engineering team of five developers.",
+    "knownFacts": "",
+    "attempts": [],
+    "finalVerdict": "error",
+    "finalRewrite": "",
+    "retriesUsed": 0,
+    "reason": "Agent temporarily unavailable due to API request limits.",
+    "timestamp": "2026-09-02T06:54:11.906Z"
+  },
+  {
+    "id": "3d8a34bb-5b65-4850-978e-f7bd84fd55b5",
+    "originalBullet": "Managed a team of developers building internal web tools.",
+    "knownFacts": "Led a team of 5 developers and shipped 3 internal applications.",
+    "attempts": [
+      {
+        "attemptNumber": 1,
+        "rewrite": "Led a team of 5 developers to build and ship 3 internal web applications.",
+        "approved": true,
+        "reason": "The rewrite successfully incorporates the metrics from the known facts (5 developers, 3 applications) without introducing any unsupported claims, preserving the original meaning, and keeping the length under 20 words (14 words)."
+      }
+    ],
+    "finalVerdict": "approved",
+    "finalRewrite": "Led a team of 5 developers to build and ship 3 internal web applications.",
+    "retriesUsed": 0,
+    "reason": "The rewrite successfully incorporates the metrics from the known facts (5 developers, 3 applications) without introducing any unsupported claims, preserving the original meaning, and keeping the length under 20 words (14 words).",
+    "timestamp": "2026-09-02T06:54:19.597Z"
+  },
+  {
+    "id": "2ed1fc35-897f-40d8-8f7d-fc47df2495db",
+    "originalBullet": "Managed software engineering team of five developers.",
+    "knownFacts": "",
+    "attempts": [],
+    "finalVerdict": "error",
+    "finalRewrite": "",
+    "retriesUsed": 0,
+    "reason": "Agent temporarily unavailable due to API request limits.",
+    "timestamp": "2026-09-02T06:55:08.151Z"
+  },
+  {
+    "id": "a25c955b-597d-4aad-813f-b69e4876c76d",
+    "originalBullet": "Managed a team of developers building internal web tools.",
+    "knownFacts": "Led a team of 5 developers and shipped 3 internal applications.",
+    "attempts": [
+      {
+        "attemptNumber": 1,
+        "rewrite": "Led a team of 5 developers to build and ship 3 internal web applications.",
+        "approved": true,
+        "reason": "The rewrite is under 20 words, preserves the original meaning while integrating the verified facts, and all metrics are fully traceable to the known facts."
+      }
+    ],
+    "finalVerdict": "approved",
+    "finalRewrite": "Led a team of 5 developers to build and ship 3 internal web applications.",
+    "retriesUsed": 0,
+    "reason": "The rewrite is under 20 words, preserves the original meaning while integrating the verified facts, and all metrics are fully traceable to the known facts.",
+    "timestamp": "2026-09-02T06:55:14.257Z"
+  }
+]

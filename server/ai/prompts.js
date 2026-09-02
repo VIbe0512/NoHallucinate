@@ -14,13 +14,23 @@ Guidelines:
 
 Return ONLY the rewritten bullet point text. Do not include markdown code block syntax, quotation marks, prefix label (e.g. "Rewritten:"), or introductory/concluding remarks.`;
 
-export function getGeneratorUserPrompt(originalBullet, knownFacts = '') {
-  return `Original Bullet Point:
+export function getGeneratorUserPrompt(originalBullet, knownFacts = '', previousFeedback = null) {
+  let prompt = `Original Bullet Point:
 "${originalBullet}"
 
-${knownFacts && knownFacts.trim() !== '' ? `Known Facts:\n"${knownFacts}"` : 'Known Facts:\nNone provided.'}
+${knownFacts && knownFacts.trim() !== '' ? `Known Facts:\n"${knownFacts}"` : 'Known Facts:\nNone provided.'}`;
 
-Rewritten Bullet Point:`;
+  if (previousFeedback && typeof previousFeedback === 'string' && previousFeedback.trim() !== '') {
+    prompt += `
+
+Your previous rewrite was rejected because:
+${previousFeedback.trim()}
+
+Generate another rewrite that fixes this issue while remaining faithful to the original facts.`;
+  }
+
+  prompt += `\n\nRewritten Bullet Point:`;
+  return prompt;
 }
 
 export const SYSTEM_PROMPT_VERIFIER = `You are a strict, independent resume auditor. Your job is to verify whether a rewritten resume bullet point is truthful and complies with editing constraints by comparing it against the original bullet point and any provided known facts.
